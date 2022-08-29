@@ -23,11 +23,6 @@ h5{
 p{
   color: dimgray;
 }
-
-.head-line{
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
 .header-content h1{
   position: absolute;
   width: 526px;
@@ -57,85 +52,34 @@ p{
 .header-content a{
 display: flex;
 align-items: center;
-gap: 8px;
 padding: 16px 12px;
 position: absolute;
-width: 140px;
-height: 45px;
 left: 219px;
 top: 464px;
 background: #EF233C;
 border-radius: 5px;
-
 width: 119px;
 height: 24px;
 font-style: normal;
 font-weight: 600;
 font-size: 19px;
-line-height: 24px;
 text-decoration: none;
 color: #FFFFFF;
-}
-.top-sec{
-  position: relative;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  height: 100px;
-  width: 100%;
 }
 .half-width{
   width: 40%;
   float: left;
+  margin-left: 5%;
+  padding: 2;
 }
 .half-width h1{
-  margin-left: 219px;
-  top: 180px;
-  font-weight: 700;
-  font-size: 55px;
-}
-.half-width p{
-  text-align: justify;
-  margin-left: 219px;
-}
-.half-width a{
-
-  padding: 16px 12px;
-  position: absolute;
-  width: 140px;
-  height: 45px;
-  background: #EF233C;
-  border-radius: 5px;
-
-  margin-left: 219px;
-  align-items: center;
-  width: 120px;
-  height: 24px;
-  font-size: 19px;
-  line-height: 24px;
-  text-decoration: none;
-  color: #FFFFFF;
-}
-.hire-btn{
-  text-decoration: none;
-  background-image: linear-gradient(rgb(255, 158, 141), tomato);
-  padding: 10px 20px;
-  border-radius: 10px;
-  color: whitesmoke;
-  font-weight: bold;
+  font-size: 50px;
 }
 .half-width img{
-  width: 80%;
-  border-radius: 5px;
+  width: 100% ;
+  border-radius: 10px;
 }
-.left-size{
-  left: 219px;
-}
-.sec-gap{
-  margin-top: 300px;
-  height: 400px;
-  margin-left: 
-  30px;
-}
+
 .qube-box{
   text-align: center;
   align-items: center;
