@@ -16,6 +16,9 @@ header {
   background-size: cover;
   background-position: center;
 }
+section{
+  padding-bottom: 150px;
+}
 h5{
   color: dimgray;
   margin: 20px 0;
@@ -70,14 +73,39 @@ color: #FFFFFF;
   width: 40%;
   float: left;
   margin-left: 5%;
-  padding: 2;
+  padding-left: 2%;
 }
 .half-width h1{
   font-size: 50px;
 }
+.half-width p{
+  height: 130px;
+}
 .half-width img{
   width: 100% ;
   border-radius: 10px;
+}
+
+.hire-btn{
+  text-decoration: none;
+  background-image: linear-gradient(rgb(255, 158, 141), tomato);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.hire-btn:hover{
+  transition: 0.5s;
+  background: whitesmoke;
+  color: black;
+  border: 2px solid tomato;
+  border-radius: 10px;
+}
+.dream-area{
+  margin-top: 50px;
+}
+.a-sec{
+  margin-top: 550px;
 }
 
 .qube-box{
